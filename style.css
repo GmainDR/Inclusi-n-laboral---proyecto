@@ -1,0 +1,478 @@
+.imagen-principal {
+  display: flex;
+  align-items: center;   /* Centra verticalmente el logo y el texto */
+  gap: 1rem;            /* Espacio entre el logo y el texto */
+}
+
+.inicial {
+  font-size: 3rem;       /* Puedes ajustar el tamaño del texto */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;             /* Evita espacios extra */
+}
+
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.p-apoyo{
+  color: rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cuadro1{
+    flex-grow: 0;
+    flex-basis: 200;
+    position: relative; /* Esto crear la posocion del cuadro*/
+    top: 38px;  /* Esto es para  la altura */
+    left: 2rem; /* Esto es para la rotacion */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Tipo de letra*/
+    background-color: rgb(255, 30, 0);
+    margin: 10px;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;   
+    padding: 20px;
+    width: 16rem;
+    height: 19rem;
+}
+.resaltar1{
+  color: rgb(255, 255, 255);
+}
+
+.imagen1{
+  width: 35px;
+}
+
+.p-hacemos{
+  color: rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cuadro2{
+    flex-grow: 0;
+    flex-basis: 200;
+    position: relative; /* Esto crear la posocion del cuadro*/
+    top: 40px;  /* Esto es para  la altura */
+    left: 10.5rem; /* Esto es para la rotacion */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 92%; /*Tamaño de texto*/
+    background-color: rgb(12, 145, 155);
+    margin: 10px;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;   
+    padding: 20px;
+    width: 16rem;
+    height: 19rem;
+}
+
+
+.imagen2{
+  width: 20px ;
+}
+
+.p-hogar{
+  color: rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cuadro3{
+    flex-grow: 0;
+    flex-basis: 100;
+    position: relative; /* Esto crear la posocion del cuadro*/
+    top: 40px;  /* Esto es para  la altura */
+    left: 19rem; /* Esto es para la rotacion */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 92%;
+    background-color: rgb(0, 255, 98);
+    margin: 10px;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;   
+    padding: 20px;
+    width: 16rem;
+    height: 19rem;
+}
+
+
+.imagen3{
+  width: 45px;
+}
+
+
+.elemento {
+  position: relative;
+  background-color: aliceblue;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 3rem;
+  height: 2rem;
+}
+
+
+.parrafo-seccion2{
+  max-width: 65rem;
+  position: relative;
+  top: 4rem;
+  text-align: center;
+  margin: 11rem;
+  left: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(1.0rem, 4.6vw, 1.9rem);
+  color: rgb(0, 0, 0);
+}
+
+.s1{
+  background-color: yellow;
+}
+
+.recuadro{
+    position: relative; /* Esto crear la posocion del cuadro*/
+    top: -4rem;  /* Esto es para  la altura */
+    left: 4rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.699);
+    margin: 12.9rem;
+    padding: 25px;
+    width: 50rem;
+    height: 15rem;
+}
+
+.recuadro img{
+  position: relative;
+  top: 1rem;
+  margin: -50px;;
+  right: 20rem;
+}
+
+
+.text{
+  position: relative;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  right: 1rem;
+}
+
+.recuadro .text{
+  position: relative;
+  top: -19rem;
+  right: 15%;
+  font-size: clamp(1rem, 10vw, 3rem);
+  font-family: Arial rgb(255, 255, 255);
+  text-align: justify;
+  border-bottom: 1px solid rgb(197, 0, 0); 
+  margin-left: 40%;
+}
+
+.frase{
+  position: relative;
+  color: blue;
+  top: -20rem;
+  left: 64px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.recuadro .parrafo{
+  position: relative;
+  top: -20rem;
+  left: 50px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.boton ul li{
+  position: relative;
+  top: -19rem;
+  text-align: center;
+  right: 7rem;
+  font-size: 22px;
+}
+.decoration:hover{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(250, 186, 113);
+  transition: 10ms;
+  border-style: double;
+  border-color: red;
+  border-radius: 10px;
+}
+
+.p-final{
+  position: relative;
+  top: -15rem;
+  text-align: center;
+  margin: 11rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  left: 2rem;
+  color: rgb(0, 0, 0);
+  font-size: clamp(2.5rem, 10vw, 2rem);
+}
+
+@media (max-width: 480px) {
+  .p-final {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 0.9rem;
+  }
+}
+
+
+.cards{
+  display: flex;
+  position: relative;
+  top: -17.5rem;
+  right: 10%;
+}
+
+.card1{
+  width: 16%;
+  height: 14%;
+  position: relative; /* Esto crear la posocion del cuadro*/
+  top: -5rem;  /* Esto es para  la altura */
+  left: 20rem; /* Esto es para la rotacion */
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 92%;
+  background-color: rgb(199, 137, 238);
+  margin: 10px;
+  border: 7px;
+  border-style: solid;
+  border-color: rgb(81, 128, 199);
+  border-radius: 7px;   
+  padding: 10px;
+}
+.img-manos{
+  position: relative;
+  top: 0.5rem;
+}
+.p-laboral{
+  position: relative;
+  top: 5px;
+  font-family: tahoma;
+  text-decoration: underline 5px;
+  color: rgb(255, 255, 255);
+}
+
+.card2{
+  width: 16%;
+  height: 14%;
+  position: relative; /* Esto crear la posocion del cuadro*/
+  top: -5rem;  /* Esto es para  la altura */
+  left: 26rem; /* Esto es para la rotacion */
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 92%;
+  background-color: rgb(58, 135, 206);
+  margin: 10px;
+  border: 7px;
+  border-style: solid;
+  border-color: rgb(0, 212, 53);
+  border-radius: 7px;   
+  padding: 10px;
+}
+.img-oportunidad{
+  position: relative;
+  top: 0.5rem;
+}
+.p-oportunidad{
+  position: relative;
+  top: 5px;
+  font-family: tahoma;
+  text-decoration: underline 5px;
+  color: rgb(255, 255, 255);
+}
+
+.card3{
+  width: 16%;
+  height: 14%;
+  position: relative; /* Esto crear la posocion del cuadro*/
+  top: -5rem;  /* Esto es para  la altura */
+  left: 32rem; /* Esto es para la rotacion */
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 92%;
+  background-color: rgb(229, 241, 57);
+  margin: 10px;
+  border: 7px;
+  border-style: solid;
+  border-color: rgb(172, 172, 172);
+  border-radius: 7px;   
+  padding: 10px;
+}
+.img-talento{
+  position: relative;
+  top: 0.5rem;
+}
+.p-talentos{
+  position: relative;
+  top: 5px;
+  font-family: tahoma;
+  text-decoration: underline 5px;
+  color: rgb(255, 255, 255);
+}
+
+hr{
+  position: relative;
+  top: -11.7rem;
+  height: 5px;
+  background-color: rgb(22, 255, 41);
+}
+
+.en{
+  position: relative;
+  top: -11rem;
+  text-align: center;
+  text-decoration: underline;
+  right: 35rem;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.qr{
+  position: relative;
+  text-align: center;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+.im{
+  background-color: blue;
+  padding: 5px;
+  border-color: aqua;
+  border: 10px;
+  background-color: aqua;
+}
+
+.contenedor-imagen-texto {
+  display: flex; /* Coloca los elementos en fila */
+  align-items: center; /* Centra verticalmente los elementos */
+  gap: 15px; /* Añade un espacio de 15px entre la imagen y el texto */
+}
+
+.t-qr{
+  display: flex;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+/* ===============   RESPONSIVIDAD MÓVIL   =============== */
+@media (max-width: 768px) {
+
+    /* --- Contenedores principales --- */
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cuadro1,
+    .cuadro2,
+    .cuadro3 {
+        left: 0 !important;
+        top: 1rem !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    /* Imagen principal */
+    .imagen-principal img {
+        width: 60%;
+        height: auto;
+    }
+
+    /* --- Sección 2 --- */
+    .parrafo-seccion2 {
+        margin: 2rem auto;
+        left: 0;
+        top: 2rem;
+    }
+
+    .recuadro {
+        width: 90%;
+        height: auto;
+        margin: 2rem auto;
+        left: 0;
+        top: 1rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .recuadro img {
+        position: static;
+        margin: 0 auto 1rem auto;
+        width: 70%;
+        right: 0;
+    }
+
+    .recuadro .text,
+    .recuadro .parrafo,
+    .frase {
+        position: static;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .frase {
+        font-size: 1rem;
+    }
+
+    /* --- Botón --- */
+    .boton ul li {
+        position: static;
+        text-align: center;
+        margin-top: 1rem;
+        right: 0;
+    }
+
+    .p-final{
+      position: static;
+      text-align: center;
+      font-size: 2.9rem;
+      margin: 1rem 0;
+
+    }
+
+
+    /* --- Cards --- */
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        right: 0;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 80%;
+        left: 0;
+        top: 0;
+    }
+
+    .p-final {
+        position: static;
+        margin-top: 3rem;
+    }
+
+    /* --- Redes (si las usas al final) --- */
+    .en,
+    .instagram,
+    .tiktok,
+    .facebook {
+        position: static;
+        right: 0;
+        margin: 1rem auto;
+        text-align: center;
+    }
+}
+
+body{
+  background-color: aliceblue;
+}
